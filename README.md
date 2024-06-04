@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://gleeful-ganache-43ed79.netlify.app/)
+- [Solution ](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-using-regex-twTIzCz7mm)
+- [Live Site ](https://gleeful-ganache-43ed79.netlify.app/)
 
 ## My process
 
