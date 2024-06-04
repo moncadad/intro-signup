@@ -55,7 +55,7 @@ body {
 }
 
 .formarea {
-  width: 500px;
+  width: 31rem;
   /* border: 1px solid black; */
 }
 .formarea > h2 {
@@ -143,8 +143,8 @@ div.error__icon {
 form div > .error__icon::after {
   content: url(./images/icon-error.svg);
   display: block;
-  height: 20px;
-  width: 20px;
+  height: 1.25rem;
+  width: 1.25rem;
   /* position: absolute; */
   top: 0;
 }
@@ -174,7 +174,7 @@ input::placeholder {
 }
 input {
   width: 100%;
-  min-width: 130px;
+  min-width: 8rem;
 }
 
 /* FORM INPUT/ ERROR HANDLING STYLING END =============================================================== */
