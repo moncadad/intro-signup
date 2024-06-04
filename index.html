@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- <div id="successBox">
+      <h1>Congrats!</h1>
+      <p>All signed up now</p>
+    </div> -->
+    <div class="container">
+      <section class="cta">
+        <h1 class="cta__title">Learn to code by watching others</h1>
+
+        <p class="cta__body">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <section class="formarea">
+        <h2 class="form__header">
+          Try it free 7 days <span>then $20/mo. thereafter</span>
+        </h2>
+        <form class="form" onsubmit="event.preventDefault(); validateMyForm();">
+          <div class="inputfield">
+            <div class="input__area">
+              <input type="text" placeholder="First Name" name="First Name" />
+              <div class="error__icon"></div>
+            </div>
+            <p class="error__msg">First Name</p>
+          </div>
+          <div class="inputfield">
+            <div class="input__area">
+              <input type="text" placeholder="Last Name" name="Last Name" />
+              <div class="error__icon"></div>
+            </div>
+            <p class="error__msg">Last Name</p>
+          </div>
+          <div class="inputfield">
+            <div class="input__area">
+              <input
+                type="text"
+                placeholder="Email Address"
+                name="Email Address"
+              />
+              <div class="error__icon"></div>
+            </div>
+            <p class="error__msg">Email Adress</p>
+          </div>
+          <div class="inputfield">
+            <div class="input__area">
+              <input type="text" placeholder="Password" name="Password" />
+              <div class="error__icon"></div>
+            </div>
+
+            <p class="error__msg">Password</p>
+          </div>
+
+          <button type="button" id="trialButton">Claim your free trial</button>
+          <p class="conditions">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </form>
+      </section>
+    </div>
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+
+    <script></script>
+  </body>
+</html>
